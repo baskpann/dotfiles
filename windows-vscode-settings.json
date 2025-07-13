@@ -1,0 +1,235 @@
+{
+    "terminal.integrated.sendKeybindingsToShell": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        },
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "remote.SSH.remotePlatform": {
+        "bpanneer": "linux",
+        "beast": "linux",
+        "pthepale": "linux",
+        "vram-wlan": "linux",
+        "sachandr-wlan": "linux",
+        "syn_199": "linux",
+        "svt_198": "linux",
+        "svt_197": "windows",
+        "bh-beast": "linux",
+        "bp-beast": "linux",
+        "smrajan": "linux",
+        "ivenkate": "linux",
+        "svt_129": "windows",
+        "kbaskara": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "cmake.configureOnOpen": false,
+    "inline-bookmarks.expert.custom.words.mapping": {
+        "blue": ["@info[\\s]", "@analysis[\\s]"],
+        "purple": ["@audit\\-issue[\\s]"],
+        "green": ["@ok[\\s]", "@done[\\s]"],
+        "red": ["@important[\\s]", "@delete[\\s]", "SYNA_DELETE:[\\s]"],
+        "warn": ["@warn[\\s]"],
+        "yellow": ["@check[\\s]", "@debug[\\s]"],
+        "default": ["@todo[\\s]", "SYNA_TODO:[\\s]"]
+    },
+    "inline-bookmarks.expert.custom.styles": {
+        "yellow": {
+            "gutterIconColor": "#FFD700",
+            "overviewRulerColor": "rgba(21, 126, 251, 0.7)",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#FFD700"
+            }
+        },
+        "default": {
+            "gutterIconColor": "#157EFB",
+            "overviewRulerColor": "rgba(21, 126, 251, 0.7)",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "red": {
+            "gutterIconColor": "#F44336",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "#F44336"
+            }
+        },
+        "blue": {
+            "gutterIconColor": "#157EFB",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": " #D2E5F6"
+            }
+        },
+        "green": {
+            "gutterIconColor": "#2FCE7C",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "purple": {
+            "gutterIconColor": "#C679E0",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        },
+        "warn": {   // example custom style with yellow color
+            "gutterIconColor": "yellow",
+            "overviewRulerColor": "#F4F400B0",
+            "light": {
+                "fontWeight": "bold"
+            },
+            "dark": {
+                "color": "Chocolate"
+            }
+        }
+    },
+    "terminal.integrated.profiles.linux": {
+
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.allowChords": false,
+    "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+    "workbench.editorLargeFileConfirmation": 60,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.renderWhitespace": "all",
+    "editor.largeFileOptimizations": false,
+    "python.defaultInterpreterPath": "C:\\Users\\bpanneer\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+    "gitlens.views.tags.branches.layout": "list",
+    "editor.multiCursorLimit": 100000,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.startupEditor": "none",
+    "mcuxpresso.sdks": [
+        {
+            "type": "standalone-folder",
+            "path": "c:\\Users\\bpanneer\\Documents\\synaptics\\repos\\repos_mcuxpresso\\SDK_2_14_0_EVK-MIMXRT595_(1)"
+        }
+    ],
+    "cmake.options.advanced": {
+
+        "build": {
+            "statusBarVisibility": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "visible"
+        }
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "mcuxpresso.configTool": "c:\\NXP\\MCUX_CFG_v14\\bin\\tools.exe",
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "nrf-connect.enableTelemetry": true,
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "editor.accessibilitySupport": "off",
+    "cmake.automaticReconfigure": false,
+    "cmake.autoSelectActiveFolder": false,
+    "cmake.configureOnEdit": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "git.openRepositoryInParentFolders": "never",
+    "gitlens.views.stashes.files.layout": "list",
+    "markdown-preview-enhanced.scrollSync": false,
+    "editor.guides.bracketPairs": true,
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.enhancedColorization": "enabled",
+    "makefile.configureOnOpen": true,
+    "editorconfig.generateAuto": false,
+    "editorconfig.template": "~/.editorconfig",
+    "editor.foldingMaximumRegions": 65000,
+    "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
+    "markdown-preview-enhanced.revealjsTheme": "moon.css",
+    "redhat.telemetry.enabled": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "memory-inspector.debugTypes": [
+        "gdb",
+        "embedded-debug",
+        "arm-debugger",
+        "mcuxpresso-debug"
+    ],
+    "memory-inspector.columns.ascii": true,
+    "memory-inspector.columns.variables": true,
+    "git.detectSubmodulesLimit": 30,
+    "editor.minimap.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "files.autoSave": "afterDelay",
+    "diffEditor.renderSideBySide": true,
+    "workbench.colorTheme": "Default Dark+",
+    "terminal.integrated.stickyScroll.enabled": true,
+    "cmake.toolset": "\"\"",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "autoDocstring.docstringFormat": "pep257",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.maxComputationTime": 0,
+    "vscode-serial-monitor.lineEnding": "\r",
+    "docker.extension.enableComposeLanguageServer": false,
+}
