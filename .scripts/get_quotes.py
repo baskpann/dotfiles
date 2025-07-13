@@ -2,7 +2,6 @@ import requests
 import random
 
 request_urls = [
-    'https://quotes.alakhpc.com/quotes?show=Modern%20Family',
     'https://yurippe.vercel.app/api/quotes?character=itachi%20uchiha&random=1',
     'https://yurippe.vercel.app/api/quotes?character=jiraiya&random=1',
     'https://yurippe.vercel.app/api/quotes?character=narut&random=1',
@@ -21,17 +20,18 @@ request_urls = [
     'https://yurippe.vercel.app/api/quotes?character=shanks&random=1',
     'https://yurippe.vercel.app/api/quotes?character=nagato&show=naruto&random=1',
     'https://yurippe.vercel.app/api/quotes?character=zabuza&random=1',
-    'https://quotes.alakhpc.com/quotes?show=How%20I%20met%20your%20mother',
-    'https://quotes.alakhpc.com/quotes?show=Brooklyn%20Nine-Nine',
-    'https://quotes.alakhpc.com/quotes?show=suits',
+    'https://quotes.alakhpc.com/quotes?show=Modern%20Family&short=true',
+    'https://quotes.alakhpc.com/quotes?show=How%20I%20met%20your%20mother&short=true',
+    'https://quotes.alakhpc.com/quotes?show=Brooklyn%20Nine-Nine&short=true',
+    'https://quotes.alakhpc.com/quotes?show=suits&short=true',
+    'https://quotes.alakhpc.com/quotes?show=friends&short=true',
+    'https://quotes.alakhpc.com/quotes?show=lucifer&short=true',
     'https://api.gameofthronesquotes.xyz/v1/random',
-    'https://quotes.alakhpc.com/quotes?show=lucifer',
-    'https://official-joke-api.appspot.com/random_joke',
     'https://api.chucknorris.io/jokes/random',
     'https://icanhazdadjoke.com/',
     'https://officeapi.akashrajpurohit.com/quote/random',
-    'https://zenquotes.io/api/quotes/today',
     'https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,racist,sexist,explicit',
+    'https://zenquotes.io/api/quotes/today',
 ]
 
 url_idx = random.randint(0, (len(request_urls) - 1))
