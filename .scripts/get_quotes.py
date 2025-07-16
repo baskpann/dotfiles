@@ -57,15 +57,16 @@ else:
 if "dadjoke" in request_url:
     print(f'{response["joke"]}')
 elif "yurippe.vercel" in request_url:
-    print(f'{response[0]["quote"]}')
+    # This API returns a list with 1 dict (since &random=1 in the query)
+    print(f'~~ {response[0]["show"]} ~~\n{response[0]["quote"]}\n~ {response[0]["character"]}')
 elif "alakhpc" in request_url:
-    print(f'{response["text"]}')
+    print(f'~~ {response["show"]} ~~\n{response["text"]}\n~ {response["character"]}')
 elif "gameofthrones" in request_url:
-    print(f'{response["sentence"]}')
+    print(f'~~ Game of Thrones ~~\n{response["sentence"]}\n~ {response["character"]["name"]}')
 elif "chucknorris" in request_url:
     print(f'{response["value"]}')
-elif "office" in request_url:
-    print(f'{response["quote"]}')
+elif "officeapi" in request_url:
+    print(f'~~ The Office ~~\n{response["quote"]}\n~ {response["character"]}')
 elif "zenquotes" in request_url:
     _idx = random.randint(0, (len(response) - 1))
     print(f'{response[_idx]["q"]}  ~ {response[_idx]["a"]}')
